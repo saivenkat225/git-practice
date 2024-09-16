@@ -6,7 +6,9 @@ read username
 
 echo "username entered is $username"
 
-read "Please enter Password::"
+echo "Please enter Password::"
+
+read password
 
 echo  "password entered is $password"
 
