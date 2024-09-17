@@ -2,11 +2,13 @@
 
 NUMBER=$1
 
-if ($NUMBER>20)
+if [ $NUMBER -gt 20 ]  ## gt, lt, eq, ne
+then
 {
-    print "$NUMBER is greater than 20"
+    echo "$NUMBER is greater than 20"
 }
 else
 {
-    print "$NUMBER is less than 20"
+    echo "$NUMBER is less than 20"
 }
+fi 
