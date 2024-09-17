@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo "All Variables pass to the script:: $@"
+echo "All Variables pass to the script:: $*"
