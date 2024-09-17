@@ -2,7 +2,7 @@
 
 NUMBER=$1
 
-if ($1>20)
+if ($NUMBER>20)
 {
     print "$NUMBER is greater than 20"
 }
