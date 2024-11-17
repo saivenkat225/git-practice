@@ -11,3 +11,4 @@ else
 {
     echo "$NUMBER is less than 20"
 }
+fi
