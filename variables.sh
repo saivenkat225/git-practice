@@ -2,12 +2,12 @@
 
 echo "Please enter your username:"
 
-read USERNAME
+read -s USERNAME
 
 echo "eneterd username is ${USERNAME}"
 
 echo "Please enter your password:"
 
-read PASSWORD
+read -s PASSWORD
 
 echo "enetered password is ${PASSWORD}"
