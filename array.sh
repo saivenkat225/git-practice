@@ -6,4 +6,4 @@ echo "First fruit is : ${FRUITS[0]}"
 echo "second fruit is: ${FRUITS[1]}"
 echo "third fruit is: {$FRUITS[2]}"
 
-echo "list of fruit are $@"
+echo "list of fruit are ${FRUITS[@]}"
